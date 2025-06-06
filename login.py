@@ -38,7 +38,7 @@ def generarMenu(usuario):
         st.page_link("inicio.py", label="Inicio", icon=":material/home:")
         st.subheader("Tableros")
         st.page_link("pages/Diagnóstico.py", label="Diagnóstico", icon=":material/rule_settings:")
-        st.page_link("pages/Modelo Sequías-Generación.py", label="Sequias", icon=":material/water_drop:")
+        st.page_link("pages/Modelo Sequías-Generación.py", label="Modelo", icon=":material/water_drop:")
         st.page_link("pages/energia_termica.py", label="Energia", icon=":material/flash_on:")     
         # Botón para cerrar la sesión
         btnSalir=st.button("Salir")
