@@ -12,7 +12,7 @@ page_element="""
 
 st.markdown(page_element, unsafe_allow_html=True)
 
-st.header(':orange[Iniciar] sesión para ver Dashboard.')
+st.header(':orange[Iniciar] sesión para acceder al Dashboard.')
 login.generarLogin()
 
 if 'usuario' in st.session_state:
